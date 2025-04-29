@@ -1,0 +1,126 @@
+/* Container styling */
+.assess-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden; /* Prevent overflow */
+  padding: 10px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Header section */
+.header {
+  width: 100%;
+  background-color: #e8f5e9;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1,
+.header h2 {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #4caf50; /* Green color */
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #4caf50;
+}
+
+/* Content section */
+.content {
+  flex-grow: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 10px;
+  width: 100%; /* Ensure content takes full width */
+  height: 80%;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  gap: 10px;
+  color: #333;
+}
+
+/* Proceed button section */
+.buttons {
+  position: sticky; /* Keep the button visible at the bottom */
+  bottom: 0;
+  background-color: white; /* Match background color */
+  padding: 10px 0;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  background-color: #4caf50; /* Green color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90%; /* Ensure button is responsive */
+  max-width: 300px;
+}
+
+.btn:hover {
+  background-color: #388e3c;
+}
+
+.proceed-btn {
+  all: unset; /* Resets all inherited/global styles */
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  position: sticky;
+  width: 90%;
+  
+}
+
+
+.proceed-btn:hover {
+  background-color: #4caf50;
+}
+
+.proceed-btn:active {
+  background-color: #4caf50;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header h1,
+  .header h2 {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}

@@ -1,0 +1,43 @@
+/* ClinicalTipPage.module.css */
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4a460;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+  
+  .subheader ion-icon {
+    font-size: 24px;
+  }
+  
+  .pageTitle {
+    color: #3880ff;
+    margin: 20px 0 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #444;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tipContent p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .redArrow {
+    color: red;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .content {
+    --background: #ffffff;
+  }

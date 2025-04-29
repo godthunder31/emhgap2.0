@@ -1,0 +1,111 @@
+
+
+.assess-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .header {
+    text-align: center;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .top-bar h1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .breadcrumb {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .breadcrumb span {
+    margin: 0 4px;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+  
+  .content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .question {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .questions-list {
+    font-size: 1rem;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .questions-list li {
+    margin-bottom: 24px;
+    line-height: 1.5;
+    position: relative;
+  }
+  
+  .questions-list li::before {
+    content: counter(list-item) ".";
+    counter-increment: list-item;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .input-line {
+    width: 100%;
+    margin-top: 8px;
+    padding: 4px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .buttons {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .proceed-btn {
+    margin-top: 16px;
+  }

@@ -1,0 +1,25 @@
+.ion-padding {
+    padding: 16px;
+  }
+  
+  .question-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .question-container h2 {
+    color: #1e90ff;
+    margin-bottom: 20px;
+  }
+  
+  ion-button {
+    margin-top: 20px;
+  }
+  
+  ion-button[color="secondary"] {
+    --background: #87cefa;
+    --color: white;
+  }

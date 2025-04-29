@@ -1,0 +1,22 @@
+.content {
+    padding: 10px;
+  }
+  
+  .quote {
+    margin-left: 20px;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .ion-text-center {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .centered-title {
+    text-align: center;
+    width: 100%;
+  }
+  

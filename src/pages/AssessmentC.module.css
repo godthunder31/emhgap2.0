@@ -1,0 +1,45 @@
+.subheader {
+    background-color: #4caf50 !important;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .back-icon {
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+  }
+  
+
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #3949ab;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  .ion-list {
+    background-color: white;
+  }
+  
+  .ion-item {
+    border-bottom: 1px solid #90EE90;
+  }
+  
+  .ion-icon {
+    color: #4caf50;
+  }
+  

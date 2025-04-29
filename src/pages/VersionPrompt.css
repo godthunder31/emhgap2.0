@@ -1,0 +1,41 @@
+.version-prompt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.full-version {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.short-version {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.9;
+}

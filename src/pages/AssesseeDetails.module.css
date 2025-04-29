@@ -1,0 +1,70 @@
+.form-container {
+  padding: 16px;
+  border: 2px solid transparent !important; /* Remove global borders if any */
+}
+
+/* Isolating styles specifically for this page */
+.ion-item-custom {
+  border-bottom: 2px solid rgb(88, 88, 212) !important; /* Adds blue lines between each block */
+  margin-bottom: 16px; /* Adds space between items */
+  background-color: white !important; /* Ensure no unwanted background color */
+  --inner-border-width: 0 !important; /* If there are inner borders set as CSS variables */
+}
+
+/* More specific override for IonItem components */
+ion-item {
+  --border-color: transparent !important; /* Override Ionic's border color */
+  --border-width: 0px !important; /* Remove any border width */
+  border-bottom: 2px solid rgb(88, 88, 212) !important; /* Custom blue line between blocks */
+}
+/* Custom styles to override global styles */
+.ion-select-custom {
+  position: relative;
+  border-bottom: none !important; /* Remove global styles causing orange lines */
+}
+
+.ion-select-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ion-select-arrow {
+  margin-left: 8px;
+}
+
+.ion-select-popover {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ion-select-option {
+  padding: 10px;
+}
+
+.ion-select-option:hover {
+  background-color: #f0f0f0;
+}
+
+/* Ensure the popover is aligned with the input field */
+.ion-popover {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.ion-popover-content {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}

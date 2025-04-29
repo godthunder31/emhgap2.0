@@ -1,0 +1,19 @@
+/* Table1.module.css */
+
+.headerText {
+    text-align: center;
+    color: #3949ab;
+    margin-bottom: 20px;
+  }
+  
+  .ageGroupButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .ionContent {
+    padding: 20px;
+  }
+  

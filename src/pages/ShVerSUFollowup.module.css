@@ -1,0 +1,54 @@
+.toolbar {
+    --background: #ffffff;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 16px;
+    color: #000080;
+  }
+  
+  .content {
+    --background: #f4f4f4;
+  }
+  
+  .subHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFA500;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .mainContent {
+    padding: 15px;
+  }
+  
+  .sectionTitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .instruction {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .assessmentList {
+    padding-left: 20px;
+  }
+  
+  .assessmentList li {
+    margin-bottom: 10px;
+  }
+  
+  .subSectionTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }

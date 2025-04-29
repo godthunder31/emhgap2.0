@@ -1,0 +1,90 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .top-bar h1 {
+    font-size: 1.5rem;
+    color: #006400;
+    margin: 0;
+  }
+  
+  .breadcrumb {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .breadcrumb span {
+    margin: 0 5px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .arrow-box {
+    display: inline-block;
+    background-color: #baf2bb;
+    color: #006400;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  .arrow-box::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #baf2bb;
+  }
+  
+  .action-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .action-list li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .action-list strong {
+    color: #006400;
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .proceed-btn {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,44 @@
+/* SUWomenAlcohol.module.css */
+.content {
+  padding: 10px;
+}
+
+.bulletPoints {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.bulletPoints li {
+  margin-bottom: 10px;
+}
+
+.headerTitle {
+  text-align: center;
+  flex-grow: 1;
+  color: #3949ab;
+
+}
+
+.subheader {
+  --background: #ffa540;
+  --color: white;
+}
+
+.subheaderTitle {
+  text-align: center;
+  width: 100%;
+  
+}
+
+.sectionTitle {
+  text-align: center;
+  width: 100%;
+  color: #3949ab;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}

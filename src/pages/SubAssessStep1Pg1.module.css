@@ -1,0 +1,114 @@
+/* Container */
+.container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 0 15px;
+    min-height: 100vh; /* Ensure the content takes up full height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Sub-header */
+  .sub-header {
+    background-color: #ffa500;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  /* Content Section */
+  .content {
+    padding: 15px 0;
+    flex-grow: 1; /* Ensures the content section takes up remaining space */
+  }
+  
+  .description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .select-instruction {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .options-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .option-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: block;
+  }
+  
+  .option-item label {
+    cursor: pointer;
+    display: block;
+  }
+  
+  .option-item input {
+    margin-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  /* Footer Section */
+  .sub-assess-footer {
+    padding: 10px;
+    background-color: #ffa500;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center; /* Center the button */
+    align-items: center; /* Center vertically */
+  }
+  
+  .sub-assess-footer .proceed-button {
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sub-assess-footer .proceed-button:hover {
+    background-color: #e69500;
+  }
+  
+  .sub-assess-footer .proceed-button:active {
+    background-color: #cc8400;
+  }
+  
+  
