@@ -7,7 +7,7 @@ import { signInAnonymously, createUserWithEmailAndPassword, signInWithEmailAndPa
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDLVStGWL5l7mR0hYNMGZ7x7bGm-ULKrtI",
+  apiKey: 
   authDomain: "mhgapdemo.firebaseapp.com",
   projectId: "mhgapdemo",
   storageBucket: "mhgapdemo.firebasestorage.app",
